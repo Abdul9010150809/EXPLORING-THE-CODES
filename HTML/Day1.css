@@ -1,0 +1,93 @@
+p{
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("../../../../Pictures/work pics/Background_Natural background.jpeg");
+    background-attachment:scroll;
+    background-position: center;
+    background-size: auto;
+    background-repeat:2;
+}
+h2.add{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-shadow: 3px 3px  gray;
+    text-align: center;
+}
+table.hk{
+    background-image: url("/home/user/Pictures/work pics/hm.jpeg");
+    background-attachment:scroll;
+    background-position: center;
+    background-size: auto;
+    background-repeat:no repeat;
+    color:brown;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: larger;
+    font-variant: small-caps;
+    border-style: dotted;
+    border-color: black;
+    line-break: auto;
+}
+th{
+text-transform: uppercase;
+text-decoration:underline;
+}
+
+h3.class{
+   
+    text-align: justify;
+    text-decoration: dashed;
+text-overflow: clip;
+text-wrap: 30px;
+word-spacing: 2px;
+}
+#hi{
+    letter-spacing:2px;
+    color:navy;
+    font-weight: bold;
+}
+h3.ff{
+    font-style: oblique;
+    text-transform: lowercase;
+}
+th.gg{
+    text-decoration: underline;
+    text-align: center;
+    color: tomato;
+}
+table.ff{
+    background-image: url("/home/user/Pictures/work pics/cloud.jpeg");
+    background-attachment:scroll;
+    background-position: center;
+    background-size: auto;
+    background-repeat:no repeat;
+}
+td.aa{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    color: aqua;
+}
+h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-overflow: ellipsis;
+text-align: start;
+text-indent: 2px;
+text-decoration: line-through;
+}
+p.sa{
+    text-shadow: 2px 1px;
+    color:darkmagenta;
+    font-weight: 800;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+#aw{
+    text-align: center;
+    text-decoration: double;
+    background-color: blueviolet;
+}
