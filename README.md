@@ -1,15 +1,14 @@
-In this repo, I am storing the codes which I learned. I am interested in html,python, c, c++, css and java script. 
+This repository contains code and learning materials for HTML, Python, C, C++, CSS, and JavaScript. The structure is organized as follows:
 
-So, I created the html and c language folders and output folders regarding to the code.
+HTML Folder: Includes HTML files categorized by topics (Day1 to Day6), covering Tags, Tables, Forms, Frames, IFrames, and Lists.
 
-In HTML Folder, I stored the html files which I learned
+HTML Output Folder: Stores output PDFs corresponding to HTML files, categorized by day and tasks.
 
-I divided the topics into days and I covered all the topics in html. 
-From Day1 to Day 6,I explored and learnt HTML Tags, Tables, forms, frames, iframes and List. 
+CSS Folder: (To be created separately for CSS files).
 
-In Html output folder, I stored the output regarding that above files. Have a look in my output and tell my faults which help in my improvement.
-I stored the pdf of output of the codes according to their day and work
+CSS output folder:
 
-In C language folder, I stored the html files which I learned
-In C language output folder, I stored the output regarding that above files. Have a look in my output and tell my faults which help in my improvement. 
+C Language Folder: Contains C programming files.
 
+C Output Folder: Stores outputs for C programs.
+Feel free to explore and provide feedback for improvement!
