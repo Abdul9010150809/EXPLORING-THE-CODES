@@ -3,10 +3,10 @@ int main(){
     printf("1.add 2.sub 3.mul 4.div 5.mod");
     int a,b,c,ch,res;
     printf("\n Enter the values of 2 numbers :");
-    scanf("%d %d",&a,&b);
+    scanf("%d %d",&a,&b);//Taking values of 2 numbers
     printf("enter your choice :");
-    scanf("%d",&ch);
-    switch (ch)
+    scanf("%d",&ch);//taking your choice
+    switch (ch)//Moving to that choice number and implementing that case
     {
     case 1:
         res=a+b;
