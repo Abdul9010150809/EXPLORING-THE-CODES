@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>variables</title>
+</head>
+<body>
+<script >
+let age=24.00;
+var x="Hello everyone";
+xy='This page tells about usage of variables and data types';
+cgpa=9.00;
+let y;
+let value=true;
+console.log(x);
+console.log(xy);
+console.log("cgpa = ",cgpa);
+console.log("age =",age);
+{
+    let name="Ayub";
+    console.log(name);
+}
+
+//We can use let variable name again in new block
+    let name="Abdul";
+    console.log("name=",name);
+    
+//use of bigint data type
+    let a = BigInt("123");
+    console.log("a =",a);
+    let b = Symbol("Assalamu alaikum!");
+    console.log("b =",b);
+//Use of const variable
+const marks=10;
+console.log("marks=%d",marks);
+
+//Primitive data types
+console.log("Type of marks = ",typeof(marks));
+console.log("Type of age = ",typeof(age));
+console.log("Type of y = ",typeof(y));
+console.log("Type of value = ",typeof(value));
+console.log("Type of name = ",typeof(name));
+console.log("Type of a = ",typeof(a));
+console.log("Type of b = ",typeof(b));
+
+//Use of non-primitive data types
+const student = {
+    name:"Ayub",
+    age:18,
+    cgpa:9.0,
+    status:true
+};
+console.log("student =",student);
+console.log("Type of student = ",typeof(student));
+//Printing individual key in object by 2 ways
+console.log("student age=",student["age"]);
+console.log("student cgap=",student.cgpa);
+//Changing value of key
+console.log("student new age=",student["age"] + 1);
+student ["name"] ="Abdul";
+console.log("new student =",student.name);
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+<script>
+    //Default fnx
+    function myfun () {
+        console.log("Hello Ayub");
+        console.log("Hello Sir");
+    }
+//We can use this way also
+    myfun ();
+    function my (msg) {
+        console.log(msg);
+    }
+    my ("Hello ");
+//Using parameter to add
+function add (a,b) {
+    console.log("sum =",a + b);
+                    }
+add (1,3);
+function sum (a,b) {
+    s = a + b;
+    return s;
+                    }
+let s=add (11,3);
+console.log("sum =",s);
+//Arrow function
+const arrowsum = (a,b) => {
+    console.log("sum =",a + b);
+        };
+console.log(arrowsum);
+arrowsum(2,4);
+const print = () => {
+    console.log("hello");
+                    };
+print()
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body><script>
+    let str="  Hello Ayub  ";
+    let str2="Hello \tSir";//length=10
+    console.log("str =",str);
+    console.log("str2 =",str2);
+    console.log("The length of sec string ",str2.length);
+    //Indices of strings
+    for (let index = 0; index < str.length; index++) {
+        console.log(str[index]);
+    }
+    let sent=`Hello Ayub,How are you?`;
+    console.log("sent =",sent);
+    console.log("sent type =",typeof(sent));
+    const student = {
+    name:"Ayub",
+    age:18,
+    cgpa:9.0,
+    status:true
+};
+console.log("My best friend is ",student.name,"whose age is ",student.age);
+//The another way to represent above as
+let output = `My best friend is ${student.name} whose age is ${student.age} and his class ${10+3}`;
+console.log(output);
+//escape character \n,\t
+//string methods
+// upper case,lower case,remove white space,slices,concat
+let newstr=str.toUpperCase();
+console.log(str);
+console.log("Uppercase =",newstr);
+let newsstr=str.toLowerCase();
+console.log("Lowercase =",newsstr);
+let nestr=str.trim();//Remove white spaces in front and end
+console.log("No white space =",nestr);
+console.log("Slicing =",str.slice(5,8));
+console.log("Slicing with no end =",str.slice(5));
+let nwstrs=str.concat(str2);//Joins str2 with str
+//we also use +
+console.log("Concat =",nwstrs);
+console.log("Using + for concat =",str + str2);
+let news =str.replace("Ayub","Ashraf");//Replace the values in str
+console.log("After replace str =",news);
+let ews =str.replace("l","p");//Replace the value in str
+console.log("After replace l in str =",ews);
+let ewss =str.replaceAll("l","p");//Replace the value in str
+console.log("After replace all l in str =",ewss);
+//To kow character at that index we use str.charAr(ind);
+console.log("str =",str);
+let a=prompt("Enter index to find :");
+console.log("Char at that index =",str.charAt(a));
+//Practice
+let mail=prompt("Enter your name to generate mail");
+let gmail=mail+mail.length;
+console.log("Your mail is ",gmail,"outlook.com");
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body><script>
+let name=["A","Y","U","B",123];
+console.log(name);
+console.log("Length =",name.length);
+console.log("name type =",typeof(name));
+for (let index = 0; index < name.length; index++) {
+    console.log("name[%d]=",index,name[index]);
+}
+//We can directly change index values
+name[0]="B";
+name[3]="W";
+for (const letter of name) {
+    console.log(letter);
+}
+//Practice
+let marks =[1,2,2,3]
+let sum =0;
+for (let index = 0; index < marks.length; index++) {
+    sum+=marks[index];
+}
+let avg=sum/marks.length;
+console.log("The average is ",avg);
+/*Another way using for-of
+sums=0;
+for (const val of marks) {
+    sums += val;
+}
+let average=sums / marks.length;
+console.log("The average is ",average);*/
+//Practice P2
+marks=[20,12,1121,112]
+console.log("The original prices are ",marks);
+for (const val of marks) {
+    let off= val / 10;
+    let price=val-off;
+    console.log("price =",price);
+}
+//Array methods
+//push,pop,tostring
+marks.push(10);//push used to add at end
+console.log("New marks after ins =",marks);
+let del=marks.pop();//pop used to delete at end
+console.log("New marks after del =",marks);
+console.log("Change to string =",marks.toString());
+console.log("Deleted number",del);
+let mark=marks.concat(name);
+console.log("New marks after concat =",mark);
+let mar=marks+mark;
+console.log("New marks after concat by using +=",mar);
+marks.unshift(32);//unshift used to add at start
+console.log("New marks after ins =",marks);
+let dels=marks.shift();//shift used to delete at end
+console.log("New marks after del =",marks);
+console.log("Deleted number",dels);
+console.log("Slicing of marks =",marks.slice(1,3));//Slicing an array marks.slice(startidx,endidx)
+console.log("Marks =",marks);
+console.log("Splicing of marks =",marks.splice(1,2,4));//Splicing an array marks.splice(startidx,delcount,replace) it means change original array
+console.log("Marks =",marks);
+console.log("Copying of marks by slice=",marks.slice());
+//We add by splice(pos,0,value);
+//We delete by splice(pos,no.of delete);
+//We replace by splice (pos,del,value)
+</script>
+</body>
+</html>
