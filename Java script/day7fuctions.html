@@ -8,9 +8,8 @@
 <body>
 <script>
     //Default fnx
-    function myfun () {
+        function myfun () {
         console.log("Hello Ayub");
-        console.log("Hello Sir");
     }
 //We can use this way also
     myfun ();
@@ -38,7 +37,106 @@ arrowsum(2,4);
 const print = () => {
     console.log("hello");
                     };
-print()
+print();
+//P1
+function vowels(str){
+    let a=prompt("Enter the string :");
+    let count=0;
+    for (const letter of a) {
+        if(letter === "a" || letter === "e" ||letter === "i" ||letter === "o" ||letter === "u" ||letter === "A" || letter === "E" ||letter === "I" ||letter === "O" ||letter === "U"){
+            count=count+1;
+        }
+    }
+    console.log("The no.of vowels are =",count);
+}
+vowels();
+//p1 in arrow form
+const vowelscount = (str) => {
+    let a=prompt("Enter the string :");
+    let count=0;
+    for (const letter of a) {
+        if(letter === "a" || letter === "e" ||letter === "i" ||letter === "o" ||letter === "u" ||letter === "A" || letter === "E" ||letter === "I" ||letter === "O" ||letter === "U"){
+            count=count+1;
+        }
+    }
+    console.log("The no.of vowels by arrow=",count);
+}
+vowelscount();
+//For each loop(call back function)
+//It is used in arrays to print each element in it
+//Using arrow
+let arr1 = [1,2,3,4,5];
+arr1.forEach ( (val) => {
+    console.log(val);
+});
+//Using fns
+let arr2 = [10,12,13,14,25];
+arr2.forEach ( function printvalue(val)  {
+    console.log(val);
+});
+let arr3= ["pune","ayub","samm","sammu"];
+arr3.forEach ( (val,idx,arr3) => {
+    console.log(val.toUpperCase(),idx,arr3);
+});
+//p1
+let arr4 = [1,2,3,4,5];
+arr4.forEach ( (val) => {
+    console.log(val*val);
+});
+//map method
+//we dont use idx and arr in it
+arr4.map((val) =>{
+    console.log(val);
+})
+//we can also copy data using map
+let newarr=arr4.map((val) =>{
+    return val * 2;
+})
+console.log("The coppied array is",newarr);
+//The filter method
+//Returns true for a condition
+let newar=arr4.filter((val) =>{
+    console.log(val%2===0);
+})
+//Reduce method
+//performs operations and reduces array to single value
+let arr5 = [1,2,3,4,5];
+const initialvalue=2;
+//2+1+2+3+4+5=17
+const sumwithinitial =arr5.reduce(
+    (accumulator,currentvalue) => accumulator + currentvalue,initialvalue,
+);
+console.log(sumwithinitial);
+//Using return
+const sum1=arr5.reduce((res,cur) => {
+    return res+cur;
+});
+//to find larger num
+const large=arr5.reduce((pre,cur) => {
+    return pre>cur? pre :cur;
+});
+console.log(large);
+console.log(sum1);
+//P1
+let marks=[12,34,90,100,92,99]
+let topp=marks.filter((val) =>{
+    return val>90;
+});
+console.log(topp);
+let n=prompt("Enter a number :");
+arr=[];
+for(let i=1;i<=n;i++){
+arr[i-1]=i;
+}
+console.log(arr);
+const larger=arr.reduce((pre,cur) => {
+    return pre+cur;
+});
+console.log("Total sum",larger);
+const Factorial=arr.reduce((pre,cur) => {
+    return pre*cur;
+});
+console.log("Factorial =",Factorial);
 </script>
 </body>
 </html>

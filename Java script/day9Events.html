@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div{
+        background-color:red ;
+        padding: 12px;
+    }
+    .light{
+        color:blue;
+        background-color: blueviolet;
+    }
+    .dark{
+        color:green;
+        background-color: black;
+    }
+    </style>
+</head>
+<body>
+    <!--The schange in state of a object is called event
+Mouse Events,keyboard events,form events, print events
+Writing an event inside a tag is called inline event handling
+-->
+    <button onclick="console.log('Jii');alert('hii')">Click me</button>
+    <button ondblclick="alert('hii jii')">Click me 2 times</button>
+<div id="div1">
+This is a box
+</div>
+<button id="btn1">Click me 2 times</button>
+<button id="btn2">Click me </button>
+<button id="btn3">Click me to change mode</button>
+    <script src="day9Events.js"></script>
+</body>
+</html>
