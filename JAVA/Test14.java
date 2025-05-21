@@ -1,3 +1,4 @@
+//Random number
 import java.util.Random;
 class Test14 {
     public static void main(String[] args){

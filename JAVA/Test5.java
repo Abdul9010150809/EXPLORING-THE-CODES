@@ -1,3 +1,4 @@
+//Conditional statements
 import java.util.*;
 class Test5{
 public static void main(String args[]){
@@ -32,20 +33,11 @@ Scanner ac = new Scanner(System.in);
 System.out.println("Enter any number ");
 ch=ac.nextInt();
 switch(ch) {
-	case 1:
-	System.out.println("Sunday");
-	break;
-	case 2:
-	System.out.println("Monday");
-	break;
-	case 3:
-	System.out.println("Tuesday");
-		break;
-		case 4:
-		System.out.println("Wednesday");
-		break;
-		default:
-		System.out.println("thursday");
+	case 1 -> System.out.println("Sunday");
+	case 2 -> System.out.println("Monday");
+	case 3 -> System.out.println("Tuesday");
+		case 4 -> System.out.println("Wednesday");
+		default -> System.out.println("thursday");
 		}
 }
 }

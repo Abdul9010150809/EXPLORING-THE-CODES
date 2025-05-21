@@ -1,4 +1,5 @@
 import java.util.*;
+//addition of matrix
 class Test8 {
 	public static void main(String args[]){
 	Scanner s=new Scanner(System.in);
@@ -24,7 +25,7 @@ class Test8 {
 		for(int j=0;j<col2;j++){
 			b[i][j]=s.nextInt();
 					}
-				}			
+				}
 	System.out.println("The first matrix :");
 	for(int i=0;i<row1;i++){
 		for(int j=0;j<col1;j++){
@@ -40,7 +41,6 @@ class Test8 {
 			System.out.println(" ");
 				}
 	int c[][]=new int[row1+row2][col1+col2];
-	int d[][]=new int[row1+row2][col1+col2];
 	System.out.println("The sum of marix is :");
 	if(row1==col1){
 	for(int i=0;i<row1;i++){

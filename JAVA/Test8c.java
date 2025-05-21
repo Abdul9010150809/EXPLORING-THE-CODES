@@ -1,3 +1,4 @@
+//Inter community in JAVA or different types of methods in java
 import java.util.*;
 class Test8c{
 int sum=0;

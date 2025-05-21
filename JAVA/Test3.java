@@ -1,4 +1,4 @@
-import java.util.*;
+// Variables
 class Test3{
 static int a=10;
 int b=45;
@@ -13,6 +13,6 @@ int x=12;
 for(int i=2;i<=10;i++){
 x=x+i;
 System.out.println(x);}
-System.out.print(x+"--"+i);
+System.out.print(x+"--"+x);
 
 }}

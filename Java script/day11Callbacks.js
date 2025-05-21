@@ -93,5 +93,34 @@ function async() {
     },6000);
 });
 }
-let p1=async();
-p1.async((res))
+//async always return  a promise
+//async function myFun(){....}
+async function hello() {
+    console.log("hello this is async")
+}
+console.log(hello());
+//await pauses the execution of its surroundings async fnc until promise is settled
+function api() {
+    return new Promise((resolve,reject) => {
+    console.log("hello this is await");
+    resolve("Happy");
+    })
+}
+async function getweatherdata() {
+    await api();
+    await api();
+}
+console.log(getweatherdata());
+
+//IIFE-Immediately Invoked Fnc Expression
+// It is a function called immediately as soon as possible
+(async function () {
+    console.log("getting data 1 -");
+    await getdata(1);
+    console.log("getting data 2 -");
+    await getdata(2);
+    console.log("getting data 3 -");
+    await getdata(3);
+    console.log("getting data 4 -");
+    await getdata(4);
+})();

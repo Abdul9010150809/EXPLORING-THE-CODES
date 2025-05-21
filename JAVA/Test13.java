@@ -1,6 +1,5 @@
-
+//String Tokenizer
 import java.util.StringTokenizer;
-
 class Test13 {
     public static void main(String[] args) {
         StringTokenizer st =new StringTokenizer("Assalamu alaikum Ayub How are u");

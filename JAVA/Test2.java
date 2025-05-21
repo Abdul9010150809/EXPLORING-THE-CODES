@@ -1,4 +1,5 @@
 import java.util.*;
+//scanner
 class Test2{
 public static void main(String args[]){
 String name;

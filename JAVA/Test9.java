@@ -1,3 +1,4 @@
+//Constructor
 class Test9 {
     int a;
     Test9(){

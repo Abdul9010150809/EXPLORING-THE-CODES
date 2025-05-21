@@ -1,3 +1,4 @@
+//Different methods calling
 import java.util.*;
 class Test8d {
 public static void main(String args[]){

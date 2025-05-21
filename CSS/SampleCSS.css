@@ -1,0 +1,97 @@
+p{
+    color: aqua;/*Applying color to the text*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}/*Changing the font in paragraph*/
+body{
+    background-image: url("/home/rgukt/Documents/Laptop-data/CAREER/EXPLORING-THE-CODES/CSS/images/hss.jpeg");/*applying background image*/
+    background-attachment:scroll;/*applying background attachment*/
+    background-position: center;/*applying background position to appear in the website*/
+    background-size: auto;/*applying background pic size to adjust*/
+    background-repeat:2;/*applying background image repetations to know how many times it have to repeat*/
+}/*Usage of background elements to the body*/
+h2.add{
+    font-style: italic;/*Changing the style of font*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Changing the font by applying the effects in h2 by name of class add*/
+    text-decoration: underline;/*Applying the effects to the text*/
+    text-shadow: 3px 3px  gray;
+    text-align: center;/*selecting the position of the text*/
+    /*Changing the text by applying the effects in h2 by name of class add*/
+}
+table.hk{
+    background-image: url("/home/rgukt/Documents/Laptop-data/CAREER/EXPLORING-THE-CODES/CSS/images/hm.jpeg");/*applying background image*/
+    background-attachment:scroll;/*applying background attachment*/
+    background-position: center;/*applying background position to appear in the website*/
+    background-size: auto;/*applying background pic size to adjust*/
+    background-repeat:no repeat;/*applying background image repetations to know how many times it have to repeat*/
+    /*Usage of background elements to the table by name of class hk*/
+   color:brown;/*Applying color to the text*/
+    text-align: center;/*selecting the position of the text*/
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: larger;
+    font-variant: small-caps;
+    border-style: dotted;
+    border-color: black;/*Applying color to the text*/
+    line-break: auto;
+}/*Changing the font by applying the effects in table by name of class hk*/
+th{
+text-transform: uppercase;
+text-decoration:underline;
+}/*Changing the text by applying the effects in th  of table*/
+h3.class{
+   
+    text-align: justify;/*selecting the position of the text*/
+    text-decoration: dashed;/*Applying the effects to the text*/
+text-overflow: clip;
+text-wrap: 30px;
+word-spacing: 2px;/*Changing the text by applying the effects in h2 by name of class add*/
+}
+#hi{
+    letter-spacing:2px;
+    color:navy;/*Applying color to the text*/
+    font-weight: bold;
+}/*Changing the font by applying the effects by id of class hk*/
+h3.ff{
+    font-style: oblique;
+    text-transform: lowercase;
+}/*Changing the text by applying the effects in h2 by name of class add*/
+
+th.gg{
+    text-decoration: underline;/*Applying the effects to the text*/
+    text-align: center;/*selecting the position of the text*/
+    color: tomato;/*Applying color to the text*/
+}/*Changing the text by applying the effects in th  of table and saving in the class name of gg*/
+table.ff{
+    background-image: url("/home/rgukt/Documents/Laptop-data/CAREER/EXPLORING-THE-CODES/CSS/images/cloud.jpeg");/*applying background image*/
+    background-attachment:scroll;/*applying background attachment*/
+    background-position: center;/*applying background position to appear in the website*/
+    background-size: auto;/*applying background pic size to adjust*/
+    background-repeat:no repeat;/*applying background image repetations to know how many times it have to repeat*/
+    /*Usage of background elements to the body*/
+}
+td.aa{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    color: aqua;/*Applying color to the text*/
+}/*Changing the text by applying the effects in td of table and saving in the class name of aa*/
+h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-overflow: ellipsis;
+text-align: start;/*selecting the position of the text*/
+text-indent: 2px;
+text-decoration: line-through;/*Applying the effects to the text*/
+}/*Changing the text by applying the effects in h3*/
+p.sa{
+    text-shadow: 2px 1px;
+    color:darkmagenta;/*Applying color to the text*/
+    font-weight: 800;
+    word-spacing: 5px;/*Applying space between words*/
+    letter-spacing: 2px;/*Applying space between letters*/
+}/*Changing the font in paragraph in the class of sa*/
+#aw{
+    text-align: center;/*selecting the position of the text*/
+    text-decoration: double;/*Applying the effects to the text*/
+    background-color: blueviolet;/*Applying color to thebackground*/
+}/*Changing the text by applying the id of name aw*/
